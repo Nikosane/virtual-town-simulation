@@ -10,35 +10,11 @@ This project is a virtual simulation of a small town where AI-driven entities (r
 - **Event System**: Random or scripted events (e.g., weather changes, economic shifts) influence the town.
 - **Logging and State Management**: Tracks the simulation's progress and interactions.
 
-## Project Structure
-```
-virtual_town_simulation/
-│── main.py                     # Entry point for running the simulation
-│── config.py                   # Configuration settings (API keys, town parameters)
-│── town/
-│   │── town.py                 # Main simulation environment
-│   │── world_clock.py           # Manages time progression
-│── entities/
-│   │── base_entity.py           # Base class for all entities
-│   │── resident.py              # AI-driven residents
-│   │── business.py              # AI-driven businesses
-│── ai/
-│   │── llm_connector.py         # Handles API calls to LLM
-│── events/
-│   │── event_manager.py         # Manages dynamic events
-│── utils/
-│   │── logger.py                # Handles logging
-│   │── helper.py                # General utility functions
-│── data/
-│   │── town_state.json          # Stores the current town state (optional)
-│── README.md                    # Project documentation
-│── requirements.txt              # Dependencies
-```
 
 ## Installation
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-repo/virtual_town_simulation.git
+   git clone https://github.com/Nikosane/virtual_town_simulation.git
    cd virtual_town_simulation
    ```
 
